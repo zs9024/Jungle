@@ -14,6 +14,9 @@ public class Engine : AbstractView {
 
     private List<ITick> tickList = new List<ITick>();
 
+    /// <summary>
+    /// 单例实例
+    /// </summary>
     public static Engine Instance
     {
         get

@@ -39,25 +39,25 @@ public class ResourcesManager : Singleton<ResourcesManager>, IInit
 
 
     /// <summary>
-    /// 游戏体生成,本地加载
+    /// 资源本地加载
     /// </summary>
     /// <param name="assetPath"></param>
     /// <param name="isMainAsset"></param>
     /// <param name="onGenerated"></param>
-    public void GenerateGameObject(string assetPath, Action<GameObject> onGenerated = null)
+    public void LoadAssetsLocal(string assetPath, Action<GameObject> onGenerated = null)
     {
-        GenerateGameObject(true,assetPath, null, false, true, onGenerated);
+        LoadAssets(true, assetPath, null, false, true, onGenerated);
     }
 
     /// <summary>
-    /// 游戏体生成，AB加载
+    /// 资源AB加载
     /// </summary>
     /// <param name="assetPath"></param>
     /// <param name="isMainAsset"></param>
     /// <param name="onGenerated"></param>
-    public void GenerateGameObject(string assetPath, bool isMainAsset = true, Action<GameObject> onGenerated = null)
+    public void LoadAssetsBundle(string assetPath, bool isMainAsset = true, Action<GameObject> onGenerated = null)
     {
-        GenerateGameObject(false, assetPath, null, isMainAsset, true, onGenerated);
+        LoadAssets(false, assetPath, null, isMainAsset, true, onGenerated);
     }
 
     /// <summary>
@@ -66,20 +66,21 @@ public class ResourcesManager : Singleton<ResourcesManager>, IInit
     /// <param name="assetPath"></param>
     /// <param name="isMainAsset"></param>
     /// <param name="onGenerated"></param>
-    public void GenerateGameObjectAsyn(string assetPath, bool isMainAsset = true, Action<GameObject> onGenerated = null)
+    public void LoadAssetsBundleAsyn(string assetPath, bool isMainAsset = true, Action<GameObject> onGenerated = null)
     {
-        GenerateGameObject(false,assetPath, null, isMainAsset, false, onGenerated);
+        LoadAssets(false, assetPath, null, isMainAsset, false, onGenerated);
     }
 
     /// <summary>
-    /// 游戏体生成
+    /// 加载资源
     /// </summary>
+    /// <param name="isLocal">是否本地resources目录加载，否则为AB加载</param>
     /// <param name="assetPath">资源路径</param>
     /// <param name="assetName">资源名称，打包时设置的名称</param>
     /// <param name="isMainAsset">是否主资源（打包时设置）</param>
     /// <param name="isLoadSyn">是否同步加载，false为异步加载</param>
-    /// <param name="onGenerated">生成完的回调</param>
-    public void GenerateGameObject(bool isLocal,string assetPath, string assetName, bool isMainAsset, bool isLoadSyn, Action<GameObject> onGenerated = null)
+    /// <param name="onGenerated">加载完的回调，GameObject：资源对象</param>
+    public void LoadAssets(bool isLocal, string assetPath, string assetName, bool isMainAsset, bool isLoadSyn, Action<GameObject> onLoaded = null)
     {
         Debug.Log("assetPath::" + assetPath);
 
@@ -97,19 +98,19 @@ public class ResourcesManager : Singleton<ResourcesManager>, IInit
             {
                 ResourcesLoad loader = loaderDic[assetName];
 
-                GameObject go = loader.InstantiateObject();
+                GameObject go = (GameObject)loader.ObjectLoad;
                 if (go != null)
                     go.name = assetName;
 
-                if (onGenerated != null)
-                    onGenerated(go);
+                if (onLoaded != null)
+                    onLoaded(go);
             }   
             else
             {
                 ResourcesLoad loader = new ResourcesLoad(assetPath, assetName, isMainAsset, isLoadSyn);
                 loaderDic.Add(assetName, loader);
 
-                view.StartCoroutine(GenerateCor(loader, isLocal, assetPath, assetName, isMainAsset, isLoadSyn, onGenerated));
+                view.StartCoroutine(LoadAssetsCor(loader, isLocal, assetPath, assetName, isMainAsset, isLoadSyn, onLoaded));
             }
         }
 
@@ -118,7 +119,7 @@ public class ResourcesManager : Singleton<ResourcesManager>, IInit
 
 
     /// <summary>
-    /// 生成协程
+    /// 资源加载协程
     /// </summary>
     /// <param name="assetPath">资源路径</param>
     /// <param name="assetName">资源名称，打包时设置的名称</param>
@@ -126,19 +127,42 @@ public class ResourcesManager : Singleton<ResourcesManager>, IInit
     /// <param name="isLoadSyn">是否同步加载，false为异步加载</param>
     /// <param name="onGenerated">生成完的回调</param>
     /// <returns></returns>
-    public IEnumerator GenerateCor(ResourcesLoad load,bool isLocal,string assetPath,string assetName,bool isMainAsset,bool isLoadSyn,Action<GameObject> onGenerated)
+    public IEnumerator LoadAssetsCor(ResourcesLoad load, bool isLocal, string assetPath, string assetName, bool isMainAsset, bool isLoadSyn, Action<GameObject> onLoaded)
     {
         if (isLocal)
             yield return view.StartCoroutine(load.LocalLoad());
         else
             yield return view.StartCoroutine(load.WWWLoad());
 
-        GameObject go = load.InstantiateObject();
+        GameObject go = (GameObject)load.ObjectLoad;
         if(go != null)
             go.name = assetName;
 
-        if (onGenerated != null)
-            onGenerated(go);
+        if (onLoaded != null)
+            onLoaded(go);
+    }
+
+    /// <summary>
+    /// 对象实例化
+    /// </summary>
+    /// <param name="objectLoaded">资源对象</param>
+    /// <returns>实例化的游戏体</returns>
+    public GameObject InstantiateObject(GameObject objectLoaded)
+    {
+        if (objectLoaded == null)
+            return null;
+
+        string assetName = objectLoaded.name;
+        if(loaderDic.ContainsKey(assetName))
+        {
+            var loader = loaderDic[assetName];
+            GameObject ins = loader.InstantiateObject();
+            ins.name = assetName;
+
+            return ins;
+        }
+
+        return null;
     }
 
     /// <summary>
