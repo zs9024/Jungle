@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿#define Debug
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -65,6 +66,9 @@ public class Engine : AbstractView {
         string sysInfo = getSystemInfo();
         Debug.Log("SystemInfo > " + sysInfo);
 
+#if Debug
+        attachFps();
+#endif
         base.Start();
     }
 
@@ -182,6 +186,13 @@ public class Engine : AbstractView {
                 tk.Update();
             }
         }
+    }
+
+    private void attachFps()
+    {
+        Fps fps = gameObject.GetComponent<Fps>();
+        if (fps == null)
+            gameObject.AddComponent<Fps>();
     }
 
 }
