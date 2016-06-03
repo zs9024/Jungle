@@ -1,4 +1,35 @@
 fileFormatVersion: 2
-guid: 342ede05b9cf84641b42ec4eaf5640db
+guid: 82dbfdfb3c42ef64d8238347152adb05
+labels:
+- 3DModels
+- Environments
+- Fantasy
+- bush
+- tree
+- mushroom
+- bridge
+- brick
+- pillar
+- wall
+- crystal
+- particle
+- rain
+- fog
+- whirlwind
+- sand
+- storm
+- light
+- magic
+- water
+- construct
+- colorful
+- world
+- terrrain
+- cloud
+- barrel
+timeCreated: 1464162921
+licenseType: Pro
 DefaultImporter:
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 

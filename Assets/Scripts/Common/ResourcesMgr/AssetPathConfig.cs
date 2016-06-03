@@ -83,7 +83,8 @@ namespace GameAssets
                     return Application.streamingAssetsPath + "/Resources";
 
                 else if (Application.platform == RuntimePlatform.WindowsEditor  )
-                    return Application.dataPath + RESOURCES_PATH_EDITOR + GetPlatformName();
+                    //return Application.dataPath + RESOURCES_PATH_EDITOR + GetPlatformName();
+                    return Application.streamingAssetsPath + "/Resources";
 
                 else if (Application.platform == RuntimePlatform.WindowsPlayer)
                     return Application.dataPath + "/StreamingAssets";
