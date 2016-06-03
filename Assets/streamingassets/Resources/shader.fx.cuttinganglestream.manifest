@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3469454690
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e8327fd2a449cb5b54f725b84fca7029
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c1089fea0bc7521f04d7ee9836950478
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourcesLib/Shader/Fx/CuttingAngleStream.shader
+Dependencies: []

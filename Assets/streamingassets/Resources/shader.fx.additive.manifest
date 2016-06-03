@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2011338192
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 28ea674856c07f2d47b86eb3ec15ab93
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c1089fea0bc7521f04d7ee9836950478
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourcesLib/Shader/Fx/Additive.shader
+Dependencies: []

@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 628424930
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e8c666bc2f0e339cbcfcec60467a57a8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 00ffc586b3c4c12c72c7fed589b81235
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourcesLib/Atlas/Common/liked.png
+- Assets/ResourcesLib/Atlas/Common/tip_icon.png
+- Assets/ResourcesLib/Atlas/Common/back.png
+- Assets/ResourcesLib/Atlas/Common/bg_black.png
+- Assets/ResourcesLib/Atlas/Common/blue_btn.png
+Dependencies: []

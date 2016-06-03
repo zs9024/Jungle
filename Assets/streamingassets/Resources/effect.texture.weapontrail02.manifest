@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3812188189
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: fbfb5e1db00dd889e83bef7a16f124ad
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7c0a6a24fc909dd95208e56e2ca96f9c
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourcesLib/Effect/Texture/weaponTrail02.psd
+Dependencies: []

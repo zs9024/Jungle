@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 4094371023
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 04a27d38f0b30d9310d52e06b12d52ec
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ac4ad4a9b4e5b2e0ba08f3ecef76be3c
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Font/CustomFont/mat_TimeFont.mat
+Dependencies:
+- ../RuntimeResource/Windows/font.customfont.timefont_0

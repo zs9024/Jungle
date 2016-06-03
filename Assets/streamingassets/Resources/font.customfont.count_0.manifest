@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2520286907
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 395c3e02c206d05ba634e7cdded5543e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7c0a6a24fc909dd95208e56e2ca96f9c
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Font/CustomFont/Count_0.png
+Dependencies: []

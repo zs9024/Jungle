@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 703374206
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 95b57c2405633521345ab33ae65b8d21
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 629335a92f4b17a508b42bc764691432
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourcesLib/Material/RedCircle.mat
+Dependencies:
+- ../RuntimeResource/Windows/shader.ui.circular

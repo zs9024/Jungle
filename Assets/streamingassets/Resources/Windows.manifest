@@ -1,0 +1,255 @@
+ManifestFileVersion: 0
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: effect.texture.skybox.m0002_dn_xgw
+      Dependencies: {}
+    Info_1:
+      Name: atlas.common
+      Dependencies: {}
+    Info_2:
+      Name: effect.texture.skybox.m0002_bk_xgw
+      Dependencies: {}
+    Info_3:
+      Name: font.customfont.timefont_0
+      Dependencies: {}
+    Info_4:
+      Name: effect.texture.skybox.m0002_lf_xgw
+      Dependencies: {}
+    Info_5:
+      Name: effect.texture.skybox.m0002_rt_xgw
+      Dependencies: {}
+    Info_6:
+      Name: effect.texture.skybox.m0002_fr_xgw
+      Dependencies: {}
+    Info_7:
+      Name: font.customfont.time2_0
+      Dependencies: {}
+    Info_8:
+      Name: font.customfont.count_0
+      Dependencies: {}
+    Info_9:
+      Name: effect.texture.skybox.m0002_up_xgw
+      Dependencies: {}
+    Info_10:
+      Name: shader.fx.transparent_alphaadd
+      Dependencies: {}
+    Info_11:
+      Name: shader.fx.uvanimaadditive_tintcolor
+      Dependencies: {}
+    Info_12:
+      Name: shader.ui.grayfilter
+      Dependencies: {}
+    Info_13:
+      Name: shader.ui.cuttingangle
+      Dependencies: {}
+    Info_14:
+      Name: shader.ui.comboxmask
+      Dependencies: {}
+    Info_15:
+      Name: shader.fx.alphablend_tintcolor
+      Dependencies: {}
+    Info_16:
+      Name: shader.ui.spriteetc
+      Dependencies: {}
+    Info_17:
+      Name: shader.fx.skybox
+      Dependencies: {}
+    Info_18:
+      Name: shader.fx.alphablend
+      Dependencies: {}
+    Info_19:
+      Name: shader.fx.texture
+      Dependencies: {}
+    Info_20:
+      Name: shader.fx.lightprobe_spec_transparent
+      Dependencies: {}
+    Info_21:
+      Name: shader.fx.diffspec_twolit
+      Dependencies: {}
+    Info_22:
+      Name: shader.fx.uvanimation_liuguang
+      Dependencies: {}
+    Info_23:
+      Name: shader.fx.multiply
+      Dependencies: {}
+    Info_24:
+      Name: shader.ui.ui-multiply
+      Dependencies: {}
+    Info_25:
+      Name: shader.ui.circular
+      Dependencies: {}
+    Info_26:
+      Name: shader.fx.uvanimalphablend_tintcolor
+      Dependencies: {}
+    Info_27:
+      Name: shader.ui.richtext
+      Dependencies: {}
+    Info_28:
+      Name: shader.fx.streamer
+      Dependencies: {}
+    Info_29:
+      Name: shader.fx.diffspec
+      Dependencies: {}
+    Info_30:
+      Name: shader.fx.texture_brightness
+      Dependencies: {}
+    Info_31:
+      Name: shader.fx.lightprobe_spec
+      Dependencies: {}
+    Info_32:
+      Name: shader.fx.texture_color
+      Dependencies: {}
+    Info_33:
+      Name: shader.fx.transparent_alphaset_oneside
+      Dependencies: {}
+    Info_34:
+      Name: shader.fx.texture_lightmap
+      Dependencies: {}
+    Info_35:
+      Name: shader.fx.lightprobe_spec_flow
+      Dependencies: {}
+    Info_36:
+      Name: shader.fx.cuttinganglestream
+      Dependencies: {}
+    Info_37:
+      Name: shader.fx.transparent
+      Dependencies: {}
+    Info_38:
+      Name: shader.fx.lightprobe_texture
+      Dependencies: {}
+    Info_39:
+      Name: shader.fx.additive_tintcolor
+      Dependencies: {}
+    Info_40:
+      Name: shader.ui.grayfontfilter
+      Dependencies: {}
+    Info_41:
+      Name: shader.fx.lightprobe_diff
+      Dependencies: {}
+    Info_42:
+      Name: shader.ui.cuttinganglestroke
+      Dependencies: {}
+    Info_43:
+      Name: shader.ui.fuzzy
+      Dependencies: {}
+    Info_44:
+      Name: shader.fx.additive
+      Dependencies: {}
+    Info_45:
+      Name: shader.fx.diffspec_metal
+      Dependencies: {}
+    Info_46:
+      Name: shader.fx.diffspec_twolit_transparent
+      Dependencies: {}
+    Info_47:
+      Name: shader.ui.movemask
+      Dependencies: {}
+    Info_48:
+      Name: font.customfont.mat_timefont
+      Dependencies:
+        Dependency_0: font.customfont.timefont_0
+    Info_49:
+      Name: material.redcircle
+      Dependencies:
+        Dependency_0: shader.ui.circular
+    Info_50:
+      Name: font.customfont.mat_timefont2
+      Dependencies:
+        Dependency_0: font.customfont.time2_0
+    Info_51:
+      Name: font.countfont
+      Dependencies:
+        Dependency_0: font.customfont.mat_count
+    Info_52:
+      Name: font.customfont.mat_count
+      Dependencies:
+        Dependency_0: font.customfont.count_0
+    Info_53:
+      Name: fx.starbaby.xingzai_a
+      Dependencies: {}
+    Info_54:
+      Name: effect.material.skybox_20150602
+      Dependencies:
+        Dependency_0: effect.texture.skybox.m0002_dn_xgw
+        Dependency_1: effect.texture.skybox.m0002_bk_xgw
+        Dependency_2: effect.texture.skybox.m0002_lf_xgw
+        Dependency_3: effect.texture.skybox.m0002_rt_xgw
+        Dependency_4: effect.texture.skybox.m0002_fr_xgw
+        Dependency_5: effect.texture.skybox.m0002_up_xgw
+        Dependency_6: shader.fx.skybox
+    Info_55:
+      Name: font.timefont
+      Dependencies:
+        Dependency_0: font.customfont.mat_timefont
+    Info_56:
+      Name: font.timefont2
+      Dependencies:
+        Dependency_0: font.customfont.mat_timefont2
+    Info_57:
+      Name: data.csvclickmeteor_utf8
+      Dependencies: {}
+    Info_58:
+      Name: font.customfont.time2
+      Dependencies: {}
+    Info_59:
+      Name: font.customfont.timefont
+      Dependencies: {}
+    Info_60:
+      Name: font.customfont.count
+      Dependencies: {}
+    Info_61:
+      Name: audio.1explosion
+      Dependencies: {}
+    Info_62:
+      Name: audio.4common
+      Dependencies: {}
+    Info_63:
+      Name: font.microsoft_black
+      Dependencies: {}
+    Info_64:
+      Name: textures.interim.dota2500
+      Dependencies: {}
+    Info_65:
+      Name: textures.startup.dota215
+      Dependencies: {}
+    Info_66:
+      Name: ui.interim.panelloadingscene
+      Dependencies:
+        Dependency_0: textures.interim.dota2500
+    Info_67:
+      Name: ui.lifebar.lifebar
+      Dependencies: {}
+    Info_68:
+      Name: ui.main.panelmain
+      Dependencies:
+        Dependency_0: atlas.main
+    Info_69:
+      Name: ui.start.panelstart
+      Dependencies:
+        Dependency_0: atlas.common
+        Dependency_1: textures.startup.dota215
+    Info_70:
+      Name: atlas.main
+      Dependencies: {}
+    Info_71:
+      Name: effect.model.monster_wolf
+      Dependencies:
+        Dependency_0: effect.animatorcontroller.finalcontroller
+    Info_72:
+      Name: effect.animatorcontroller.finalcontroller
+      Dependencies: {}
+    Info_73:
+      Name: effect.animatorcontroller.juggcontroller
+      Dependencies: {}
+    Info_74:
+      Name: effect.model.hero_jugg
+      Dependencies:
+        Dependency_0: effect.animatorcontroller.juggcontroller
+    Info_75:
+      Name: effect.material.weapontrail
+      Dependencies:
+        Dependency_0: effect.texture.weapontrail02
+    Info_76:
+      Name: effect.texture.weapontrail02
+      Dependencies: {}

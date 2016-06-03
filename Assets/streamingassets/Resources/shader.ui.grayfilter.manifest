@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1901293957
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f32a81d3f71c38aeff1982db841fac4c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c1089fea0bc7521f04d7ee9836950478
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourcesLib/Shader/UI/GrayFilter.shader
+Dependencies: []

@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3907044474
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5af18714953376ded35d15c122fe31b0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7c0a6a24fc909dd95208e56e2ca96f9c
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourcesLib/Effect/Texture/SkyBox/m0002_UP_xgw.jpg
+Dependencies: []

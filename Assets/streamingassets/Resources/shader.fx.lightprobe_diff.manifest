@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3321113891
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 08394383fb100e391271fa89f183e513
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c1089fea0bc7521f04d7ee9836950478
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourcesLib/Shader/Fx/LightProbe_Diff.shader
+Dependencies: []

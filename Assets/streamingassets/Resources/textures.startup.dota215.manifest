@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 187655643
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6be590e0f0493abeabb7da30f6a51a60
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7c0a6a24fc909dd95208e56e2ca96f9c
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourcesLib/Textures/StartUp/dota215.png
+Dependencies: []

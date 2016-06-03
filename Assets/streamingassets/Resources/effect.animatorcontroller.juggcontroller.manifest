@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 3063523664
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0e4e3acee3d9809d6b044a9950840ae0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f787f7532a437eeeebf524bddccf7191
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourcesLib/Effect/AnimatorController/JUGGController.controller
+Dependencies: []

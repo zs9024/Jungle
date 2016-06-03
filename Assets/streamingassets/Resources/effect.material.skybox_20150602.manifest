@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 414770352
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3b1b76c9bd0aac7f64c940fd59f8cd62
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ac4ad4a9b4e5b2e0ba08f3ecef76be3c
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourcesLib/Effect/Material/SkyBox_20150602.mat
+Dependencies:
+- ../RuntimeResource/Windows/effect.texture.skybox.m0002_dn_xgw
+- ../RuntimeResource/Windows/effect.texture.skybox.m0002_bk_xgw
+- ../RuntimeResource/Windows/effect.texture.skybox.m0002_lf_xgw
+- ../RuntimeResource/Windows/effect.texture.skybox.m0002_rt_xgw
+- ../RuntimeResource/Windows/effect.texture.skybox.m0002_fr_xgw
+- ../RuntimeResource/Windows/effect.texture.skybox.m0002_up_xgw
+- ../RuntimeResource/Windows/shader.fx.skybox

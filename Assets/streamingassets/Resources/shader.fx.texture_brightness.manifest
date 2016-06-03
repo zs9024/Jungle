@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1029926920
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 65b0d354151b5ea884b71e11044744aa
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c1089fea0bc7521f04d7ee9836950478
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourcesLib/Shader/Fx/Texture_Brightness.shader
+Dependencies: []

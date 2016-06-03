@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2876968396
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 57f86579c9d4a16466725166ed90f40b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c1089fea0bc7521f04d7ee9836950478
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourcesLib/Shader/Fx/AlphaBlend.shader
+Dependencies: []

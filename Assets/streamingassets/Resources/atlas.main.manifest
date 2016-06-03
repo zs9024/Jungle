@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 1103391722
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 349a60fc572332935280f5b01b87a7c2
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 00ffc586b3c4c12c72c7fed589b81235
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourcesLib/Atlas/Main/INV_Sword_10.png
+- Assets/ResourcesLib/Atlas/Main/Button_active.png
+- Assets/ResourcesLib/Atlas/Main/Spell_Nature_MirrorImage.png
+- Assets/ResourcesLib/Atlas/Main/Ability_spin.jpg
+- Assets/ResourcesLib/Atlas/Main/INV_Banner_01.png
+- Assets/ResourcesLib/Atlas/Main/Spell_Frost_Stun.png
+- Assets/ResourcesLib/Atlas/Main/Button_normal.png
+- Assets/ResourcesLib/Atlas/Main/Ability_Hunter_Resourcefulness.png
+- Assets/ResourcesLib/Atlas/Main/Ability_CriticalStrike.png
+- Assets/ResourcesLib/Atlas/Main/Ability_Rogue_SliceDice.png
+- Assets/ResourcesLib/Atlas/Main/Spell_Frost_WindWalkOn.png
+Dependencies: []

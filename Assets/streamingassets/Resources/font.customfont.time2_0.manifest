@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 199859250
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 54260081f358471dd132ed13e1bd29b4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7c0a6a24fc909dd95208e56e2ca96f9c
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Font/CustomFont/time2_0.png
+Dependencies: []

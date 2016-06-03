@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 3637975975
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5098281c7540060486b46f53c45d17b0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ac4ad4a9b4e5b2e0ba08f3ecef76be3c
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourcesLib/Effect/Material/WeaponTrail.mat
+Dependencies:
+- ../RuntimeResource/Windows/effect.texture.weapontrail02

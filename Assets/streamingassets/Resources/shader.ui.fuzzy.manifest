@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 995209696
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3a91237159d7ac7c582747152934a8e3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c1089fea0bc7521f04d7ee9836950478
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourcesLib/Shader/UI/Fuzzy.shader
+Dependencies: []

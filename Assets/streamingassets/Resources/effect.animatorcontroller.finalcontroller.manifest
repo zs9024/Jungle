@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 2950167256
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 59ea9b8d346a8d305045cefd9e7f4525
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f787f7532a437eeeebf524bddccf7191
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourcesLib/Effect/AnimatorController/FinalController.controller
+Dependencies: []

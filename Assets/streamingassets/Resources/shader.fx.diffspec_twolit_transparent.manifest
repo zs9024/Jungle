@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2820807927
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3e4c1034f285338b5a7a3e7ae70d8b81
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c1089fea0bc7521f04d7ee9836950478
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourcesLib/Shader/Fx/DiffSpec_TwoLit_Transparent.shader
+Dependencies: []

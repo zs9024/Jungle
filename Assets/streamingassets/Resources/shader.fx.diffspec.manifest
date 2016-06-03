@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 922407100
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4b4ca0dd3655a78cd50d6b0717bc23fe
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c1089fea0bc7521f04d7ee9836950478
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourcesLib/Shader/Fx/DiffSpec.shader
+Dependencies: []
