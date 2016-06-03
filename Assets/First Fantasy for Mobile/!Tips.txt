@@ -1,0 +1,66 @@
+﻿------------------------------------------------------------------
+Tips for mobile project.
+------------------------------------------------------------------
+	
+	1. There are SD/HD/UD size for Asset_01 texture. Switch them depend on your target device capabilities.
+	2. If you use Unity terrain paint tool these parameters should be set to white color.
+		• Terrain's grass tint
+		• Grass brush's Healthy & Dry 
+	3. Terrain grasses increase runtime draw call. For better performance paint it less as you can.
+	4. Beast Lightmapping is powerful tool. Use it after finished your scene to reduce draw calls.
+	5. Beast Lightmap parameters guide for good result and saving your time.
+		• Intensity: 0.25 • 1
+		• Bounce Intensity: 1
+		• Shadow Samples: 100
+		• Shadow Angle: 20
+		• Bake parameter
+			• Mode: Single Lightmaps
+			• Quality: High
+			• Bounces: 4
+			• Sky Light Intensity: 0.25
+			• Bounce Boost: 4
+			• Bounce Intensity: 0.5
+			• Final Gather Rays: 1500
+			• Contrast Threshold: 0.012
+			• Interpolation: 0
+			• Interpolation Points: 30
+			• Ambient Occlusion: 0
+			• Resolution: 32
+
+------------------------------------------------------------------
+Recommend Unity's manual for mobile project
+------------------------------------------------------------------
+
+	• Lightmapping Quickstart
+		http://docs.unity3d.com/Documentation/Manual/Lightmapping.html
+
+	• Lightmapping In-Depth
+		http://docs.unity3d.com/Documentation/Manual/LightmappingInDepth.html
+
+	• Future & High End Devices:
+		http://docs.unity3d.com/Documentation/Manual/iphone-FutureDevices.html
+	
+	• Graphics Methods
+		http://docs.unity3d.com/Documentation/Manual/iphone-OptimizedGraphicsMethods.html
+	
+	• Rendering Optimizations
+		http://docs.unity3d.com/Documentation/Manual/iphone-PracticalRenderingOptimizations.html
+	
+	• Optimizing Graphics Performance
+		http://docs.unity3d.com/Documentation/Manual/OptimizingGraphicsPerformance.html
+	
+	• Draw Call Batching
+		http://docs.unity3d.com/Documentation/Manual/DrawCallBatching.html
+	
+	• Modeling Characters for Optimal Performance
+		http://docs.unity3d.com/Documentation/Manual/ModelingOptimizedCharacters.html
+	
+	• Reducing File Size
+		http://docs.unity3d.com/Documentation/Manual/ReducingFilesize.html
+
+------------------------------------------------------------------
+
+Thank you for your support.
+Enjoy your creation.
+
+G.E. Team Dev
